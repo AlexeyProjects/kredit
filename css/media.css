@@ -1,0 +1,105 @@
+@media screen and (max-width: 1279px) {
+	.container {
+		width: 100%;
+		padding: 0 1rem;
+	}
+	.promo-content {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	.promo-content p {
+		animation: slidetop 1s linear;
+	}
+	.promo-content .btn {
+		animation: slidebottom 1s linear;
+	}
+	.promo-content .btn {
+		margin: 0 auto;
+	}
+	.promo-image {
+		display: none;
+	}
+	.history-list {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.history-item {
+		margin-bottom: 2rem;
+		margin-right: 2rem;
+	}
+	.history-item:nth-child(1n) {
+		animation: slideleft 1s linear;
+	}
+	.history-item:nth-child(2n) {
+		animation: slideright 1s linear;
+	}
+	.history-item:nth-child(3n) {
+		animation: slidebottom 2s linear;
+	}
+	.consultation-image {
+		display: none;
+	}
+	.consultation-content {
+		margin: 0 auto;
+	}
+	.legalhelp {
+		background:unset;
+	}
+	.legalhelp-content {
+		width: 100%;
+		background-color: #F5F5F6 ;
+		text-align: center;
+	}
+	.legalhelp-content svg {
+		width: 4rem;
+		height: 4rem;
+	}
+	.legalhelp-content .text {
+		text-align: left;
+	}
+	.legalhelp-image {
+		max-width: 100%;
+	}
+	.consultation-card {
+		margin: 0 auto;
+	}
+	.legalhelp .row {
+		justify-content: center;
+	}
+	.legalhelp-content .row {
+		justify-content: center;
+	}
+	.legalhelp .container {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		justify-content: center;
+	}
+	.legalhelp.wehelp {
+		background: unset;
+	}
+	.legalhelp.wehelp .container {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 728px) {
+	header .container .phone, footer .container .phone {
+		text-align: right;
+	}
+	.legalhelp-coop .row img {
+		margin: 0 2rem 2.5rem 2rem;
+	}
+	.consultation-card {
+		width: 100%;
+	}
+	.consultation-title {
+		width: 100%;
+	}
+	.noprepay {
+		display: none;
+	}
+	.consultation-card .btn {
+		width: 20rem;
+	}
+}

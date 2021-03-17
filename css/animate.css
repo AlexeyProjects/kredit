@@ -1,0 +1,53 @@
+.slidetop {
+	animation: slidetop 1s linear;
+}
+.slideleft {
+	animation: slideleft 1s linear;
+}
+.slideright {
+	animation: slideright 1s linear;
+}
+@keyframes slidetop {
+  from {
+    transform: translateY(-50rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slidebottom {
+  from {
+    transform: translateY(50rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideleft {
+  from {
+    transform: translateX(-50rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideright {
+  from {
+    transform: translateX(50rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
